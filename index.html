@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style-foundation.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container">
+        <div class="imagetext">
+          <img
+            src="image copy.png"
+            alt="the odin project logo"
+            width="20%"
+          />
+          <p>ODIN</p>
+        </div>
+        <img src="image.png" alt="a photo" />
+      </div>
+      <div class="signup_section">
+        <div class="form_text">
+          <p>
+            This is not a real form. I'm just doing it to practice my skills in
+            forms and in design. While your here why don't you try it out!
+          </p>
+          <p>I know you want to so get going!</p>
+        </div>
+        <div class="form_section">
+          <form action="get" class="form">
+            <fieldset>
+              <legend>Lets Do This!</legend>
+              <div class="form-row">
+                <label for="first_name">First Name</label>
+                <input
+      
+                  type="text"
+                  id="first_name"
+                  name="first_name"
+                  pattern="^[^0-9]+$"
+                />
+              </div>
+              <div class="form-row">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" />
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Info@gmail.com"
+                />
+              </div>
+              <div class="form-row">
+                <label for="number">Number</label>
+                <input type="text" id="number" name="number" minlength="10" placeholder="0545642263"/>
+              </div>
+              <div class="form-row">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  minlength="6"
+                  ;
+                />
+              </div>
+              <div class="form-row">
+                <label for="confirm_password">Confirm Password</label>
+                <input
+                  type="password"
+                  id="confirm_password"
+                  name="confirm_password"
+                  minlength="6"
+                  ;
+                />
+              </div>
+            </fieldset>
+            <button type="submit" class="submit">Create Account</button>
+            <div class="last_section">
+              <p class="underbutton">Already have an account?<p class="login">Log In</p></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- fix the width problem -->
